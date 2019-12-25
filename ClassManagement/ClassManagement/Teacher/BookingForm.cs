@@ -10,7 +10,7 @@ namespace ClassManagement {
 		public BookingForm(DateTime date, int timeIndex, List<string> audits, int auditIndex) {
 			InitializeComponent();
             db = new StepSchedulerEntities();
-            cmbTime.Items.Add("9:00");
+            cmbTime.Items.Add("9:00");          //заполнение данных на форме
             cmbTime.Items.Add("10:30");
             cmbTime.Items.Add("12:00");
             cmbTime.Items.Add("13:30");
@@ -29,7 +29,7 @@ namespace ClassManagement {
 
 		private void button1_Click(object sender, EventArgs e)
         {
-            if (dateTimePicker1.Value < DateTime.Now)
+            if (dateTimePicker1.Value < DateTime.Now)           //проверки
             {
                 MessageBox.Show("Нельзя бронировать на прошедшее время");
                 return;
@@ -39,7 +39,7 @@ namespace ClassManagement {
                 MessageBox.Show("Поле \"Преподаватель\" не может быть пустым");
                 return;
             }
-            Requests request = new Requests();
+            Requests request = new Requests();                  //создание нового запроса на бронирование соответственно данным с формы
             request.ClassRoomId = cmbAudit.SelectedIndex;
             var teacher = db.Users.Where(x => x.Login == txbTeacher.Text);
             if (teacher.Count(x => true) != 1)
@@ -56,9 +56,10 @@ namespace ClassManagement {
                 return;
             }
             request.CountOfVisitors = (int)numericUpDown1.Value;
-            request.EventDescription = ;
-            db.Requests.Add(request);
-
+            request.EventDescription = txbKomment.Text;
+            db.Requests.Add(request);           //сохранение запроса в базе
+            db.SaveChanges();
+            MessageBox.Show("Заявка на бронирование успешно отправлена");
 			Close();
 		}
 	}
