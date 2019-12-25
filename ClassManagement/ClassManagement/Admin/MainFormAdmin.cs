@@ -1,5 +1,6 @@
 ﻿using ClassManagement.Admin;
 using System;
+using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
 using System.Windows.Forms;
@@ -13,7 +14,8 @@ namespace ClassManagement {
 		Color busy = Color.Salmon;      //занятые аудитории помечены красным цветом
 		Color free = Color.Green;       //свободные аудитории помечены зеленым цветом
 		Color pretend = Color.Yellow;   //аудитории, на которые претендуют преподователи, помечены желтым цветом
-
+		Users user = null;
+		ClassRooms cr = null;
 		public MainFormAdmin() {
 			InitializeComponent();
 			dataGridView1.RowCount = 15;
@@ -37,11 +39,10 @@ namespace ClassManagement {
 			else {
 				using (StepSchedulerEntities db = new StepSchedulerEntities()) {
 					IQueryable<ReservedRooms> Querry = from t1 in db.ReservedRooms //достаем зарезервированные аудитории где дата проведения равна дате в dateTimePicker1 
-													   join t2 in db.Requests on t1.RequestId equals t2.RequestId
-													   where (t2.Status != -1)
-													   select t1;
+													  join t2 in db.Requests on t1.RequestId equals t2.RequestId
+													  where (t2.Status != -1)
+													  select t1;
 					foreach (ReservedRooms item in Querry) {
-
 						string ShortFormatItem = item.Requests.ClassDate.ToShortDateString();
 						string SelectedShortFormat = dateTimePicker1.Value.ToShortDateString();
 						if (ShortFormatItem == SelectedShortFormat) {
@@ -95,8 +96,8 @@ namespace ClassManagement {
 		}
 
 		private void добавлениеToolStripMenuItem1_Click(object sender, EventArgs e) {
-			//TeacherInfoForm form = new TeacherInfoForm();
-			//form.Show();
+			TeacherInfoForm form = new TeacherInfoForm(user);
+			form.Show();
 		}
 
 		private void просмотрToolStripMenuItem2_Click(object sender, EventArgs e) {
@@ -105,7 +106,7 @@ namespace ClassManagement {
 		}
 
 		private void добавлениеToolStripMenuItem2_Click(object sender, EventArgs e) {
-			AudienceForm form = new AudienceForm();
+			AudienceForm form = new AudienceForm(cr);
 			form.Show();
 		}
 

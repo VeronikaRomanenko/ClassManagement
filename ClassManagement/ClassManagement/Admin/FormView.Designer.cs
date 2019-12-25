@@ -34,9 +34,9 @@
 			this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
 			this.toolStripTextBox1 = new System.Windows.Forms.ToolStripTextBox();
 			this.toolStripButton4 = new System.Windows.Forms.ToolStripButton();
+			this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
 			this.dataGridView = new System.Windows.Forms.DataGridView();
 			this.checkBoxBlock = new System.Windows.Forms.CheckBox();
-			this.toolStripButton5 = new System.Windows.Forms.ToolStripButton();
 			this.toolStrip1.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
 			this.SuspendLayout();
@@ -58,7 +58,7 @@
 			this.toolStrip1.Location = new System.Drawing.Point(0, 0);
 			this.toolStrip1.Name = "toolStrip1";
 			this.toolStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-			this.toolStrip1.Size = new System.Drawing.Size(971, 40);
+			this.toolStrip1.Size = new System.Drawing.Size(900, 40);
 			this.toolStrip1.TabIndex = 0;
 			this.toolStrip1.Text = "toolStrip1";
 			// 
@@ -115,6 +115,16 @@
 			this.toolStripButton4.Text = "toolStripButton4";
 			this.toolStripButton4.Click += new System.EventHandler(this.toolStripButton4_Click);
 			// 
+			// toolStripButton5
+			// 
+			this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
+			this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
+			this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
+			this.toolStripButton5.Name = "toolStripButton5";
+			this.toolStripButton5.Size = new System.Drawing.Size(104, 37);
+			this.toolStripButton5.Text = "Очистить поиск";
+			this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
+			// 
 			// dataGridView
 			// 
 			dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -136,7 +146,7 @@
 			this.dataGridView.DefaultCellStyle = dataGridViewCellStyle2;
 			this.dataGridView.Location = new System.Drawing.Point(12, 43);
 			this.dataGridView.Name = "dataGridView";
-			this.dataGridView.Size = new System.Drawing.Size(700, 461);
+			this.dataGridView.Size = new System.Drawing.Size(876, 599);
 			this.dataGridView.TabIndex = 1;
 			// 
 			// checkBoxBlock
@@ -151,21 +161,11 @@
 			this.checkBoxBlock.UseVisualStyleBackColor = false;
 			this.checkBoxBlock.CheckedChanged += new System.EventHandler(this.checkBoxBlock_CheckedChanged);
 			// 
-			// toolStripButton5
-			// 
-			this.toolStripButton5.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
-			this.toolStripButton5.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton5.Image")));
-			this.toolStripButton5.ImageTransparentColor = System.Drawing.Color.Magenta;
-			this.toolStripButton5.Name = "toolStripButton5";
-			this.toolStripButton5.Size = new System.Drawing.Size(104, 37);
-			this.toolStripButton5.Text = "Очистить поиск";
-			this.toolStripButton5.Click += new System.EventHandler(this.toolStripButton5_Click);
-			// 
 			// FormView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(971, 516);
+			this.ClientSize = new System.Drawing.Size(900, 654);
 			this.Controls.Add(this.checkBoxBlock);
 			this.Controls.Add(this.dataGridView);
 			this.Controls.Add(this.toolStrip1);

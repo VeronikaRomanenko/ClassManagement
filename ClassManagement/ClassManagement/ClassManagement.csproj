@@ -65,6 +65,18 @@
     <Compile Include="Admin\AudienceForm.Designer.cs">
       <DependentUpon>AudienceForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Admin\FormViewAudience.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormViewAudience.Designer.cs">
+      <DependentUpon>FormViewAudience.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\FormViewTeacher.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Admin\FormViewTeacher.Designer.cs">
+      <DependentUpon>FormViewTeacher.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin\LessonForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +162,12 @@
     </Compile>
     <EmbeddedResource Include="Admin\AudienceForm.resx">
       <DependentUpon>AudienceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormViewAudience.resx">
+      <DependentUpon>FormViewAudience.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Admin\FormViewTeacher.resx">
+      <DependentUpon>FormViewTeacher.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Admin\LessonForm.resx">
       <DependentUpon>LessonForm.cs</DependentUpon>

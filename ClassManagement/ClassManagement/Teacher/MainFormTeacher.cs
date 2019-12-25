@@ -48,8 +48,8 @@ namespace ClassManagement {
                 audits.Add(item.Cells[0].ToString());
             }
             BookingForm form = new BookingForm(dateTimePicker1.Value, dataGridView1.CurrentCell.ColumnIndex, audits, dataGridView1.CurrentCell.RowIndex);
-			form.Show();
-		}
+            form.Show();
+        }
 
 		private void dateTimePicker1_ValueChanged(object sender, EventArgs e) {
 			OutputDate(dateTimePicker1.Value);

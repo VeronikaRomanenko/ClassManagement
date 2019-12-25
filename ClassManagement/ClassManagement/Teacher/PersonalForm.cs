@@ -22,7 +22,7 @@ namespace ClassManagement {
 			FillNew();
 			FillHistory();
 		}
-
+		//заполнение datagridview с новыми (текущими) сообщениями
 		private void FillNew() {
 			var n = requests.Select(x => new {
 				Дата_занятия = x.ClassDate,
@@ -34,7 +34,7 @@ namespace ClassManagement {
 			dataGridView1.DataSource = null;
 			dataGridView1.DataSource = n;
 		}
-
+		//заполнение datagridview с историей
 		private void FillHistory() {
 			var history = requests.Where(s => s.Status != 0 && s.ClassDate < DateTime.Now.Date).
 					  Select(x => new {
@@ -51,7 +51,7 @@ namespace ClassManagement {
 		private object Choise(int? status) {
 			return (status == 1) ? "подтверждено" : (status == -1) ? "отклонено" : "ожидают ответа";
 		}
-
+		//заполнение datagridview с новыми (текущими) сообщениями с учетом статуса
 		private void GetNewListFromBD(int status) {
 			var n = requests.Where(s => s.Status == 1).Select(x => new {
 				ид = x.RequestId,
@@ -65,7 +65,7 @@ namespace ClassManagement {
 			dataGridView1.Columns["ид"].Visible = false;
 			dataGridView1.DataSource = n;
 		}
-
+		//заполнение datagridview с историей с учетом статуса
 		private void GetHistoryListFromBD(int status) {
 			var history = requests.Where(s => s.Status == status && s.ClassDate < DateTime.Now.Date).
 						Select(x => new {
@@ -78,7 +78,7 @@ namespace ClassManagement {
 			dataGridView2.DataSource = null;
 			dataGridView2.DataSource = history;
 		}
-
+		// выбор статуса
 		private void comboBox1_SelectedIndexChanged(object sender, EventArgs e) {
 			//button1.Visible = (tabControl1.SelectedIndex == 0)? true : false;
 			if (comboBox1.SelectedItem.ToString() == "Подтвержденные") {
@@ -109,7 +109,7 @@ namespace ClassManagement {
 					FillHistory();
 			}
 		}
-
+		//код кнопки отмена
 		private void button1_Click(object sender, EventArgs e) {
 			if (dataGridView1.SelectedRows.Count == 1) {
 				int id = Convert.ToInt32(dataGridView1[0, dataGridView1.CurrentRow.Index].Value);

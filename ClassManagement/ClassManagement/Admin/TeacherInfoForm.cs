@@ -8,9 +8,9 @@ namespace ClassManagement {
 	public partial class TeacherInfoForm : Form {
 		StepSchedulerEntities bd = null;
 		Users user = null;
-		public TeacherInfoForm(Users u) {
+		public TeacherInfoForm(Users user) {
 			InitializeComponent();
-			user = u;
+			user = new Users();
 			bd = new StepSchedulerEntities();
 			if (user.Photo != null) {
 				byte[] vs = user.Photo;
