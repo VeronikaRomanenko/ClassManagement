@@ -1,0 +1,72 @@
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe.config
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\ClassManagement.pdb
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.BookingForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.LoginForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormAdmin.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormTeacher.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.PersonalForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Properties.Resources.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.exe
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.pdb
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.AudienceForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.ConfirmationForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.LessonForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.TeacherInfoForm.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.FormView.resources
+C:\Users\Admin\Desktop\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csproj.CopyComplete
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe.config
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.pdb
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.dll
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.xml
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.AudienceForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.BookingForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.ConfirmationForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.FormView.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.LoginForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormAdmin.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormTeacher.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.PersonalForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Properties.Resources.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.TeacherInfoForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csproj.CopyComplete
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.exe
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.pdb
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.LessonForm.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.FormViewAudience.resources
+C:\Users\Admin\Desktop\Командный проект\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.FormViewTeacher.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe.config
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.exe
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\ClassManagement.pdb
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.dll
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.dll
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.xml
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\bin\Debug\EntityFramework.SqlServer.xml
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csprojResolveAssemblyReference.cache
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.AudienceForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.FormViewAudience.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.FormViewTeacher.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Admin.LessonForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.BookingForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.ConfirmationForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.FormView.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.LoginForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormAdmin.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.MainFormTeacher.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.PersonalForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.Properties.Resources.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.TeacherInfoForm.resources
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.csproj.GenerateResource.Cache
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.exe
+D:\Романенко Вероника\ClassManagement\ClassManagement\ClassManagement\obj\Debug\ClassManagement.pdb
